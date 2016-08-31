@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Wolfram|Alpha</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+	<script src="jquery-3.1.0.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+		<div id="header">
+			<a href="http://www.wolframalpha.com/">
+				<img src="images/header.png"/>
+			</a>
+		</div>
+		<div class="inputForm">
+		  <form id="wolframAlphaForm">
+			<input id="userQuery" type="text"/>
+			<input id="submit" type="image" src="images/submit.png"/>
+		  </form>
+		</div>
+
+		<div class="responseDisplay">
+		  <ul id="wolframAlphaResponses"></ul>
+		</div>
+
+		<div id="progressDisplay"></div>
+  </body>
+</html>

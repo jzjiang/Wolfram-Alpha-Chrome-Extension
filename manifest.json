@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Wolfram|Alpha",
+  "version": "1.0",
+  "browser_action": {
+         "default_icon": "images/icon.png",
+          "default_title": "Wolfram|Alpha",
+          "default_popup": "popup.html" 
+        },
+  "permissions": [
+		"tabs"
+	]
+}
